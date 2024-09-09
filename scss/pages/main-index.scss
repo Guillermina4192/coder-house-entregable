@@ -1,6 +1,6 @@
 // Hero
 .hero {
-    background-image: url(../../assets/Hero-imagen.png);
+    background-image: url(../../assets/hero-image.png);
     background-size: cover;        
     background-position: center;   
     background-repeat: no-repeat;  
@@ -8,12 +8,12 @@
     
 
     .hero-content {
-        display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content:center;
 
         .hero-text {
             max-width: 50%;
+            margin-bottom: 24px;
 
             h1 {
                 font-size: $font-size-xlarge;
@@ -31,8 +31,7 @@
 
             p {
                 font-size: $font-size-base;
-                margin-bottom: 24px;
-                color: $color-text;
+                color: $color-text
             }
         }
 

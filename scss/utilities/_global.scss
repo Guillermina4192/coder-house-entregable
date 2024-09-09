@@ -17,5 +17,11 @@ h1 {
     font-size: $font-size-xlarge;
     margin-bottom: 20px;
     font-weight: bold;
-    color: $color-footer-text;
+    color: $color-primary;
+}
+p {
+    font-size: $font-size-base;
+    margin-bottom: 20px;
+    font-weight: medium;
+    color: $color-text;
 }

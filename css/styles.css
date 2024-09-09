@@ -17,7 +17,14 @@ h1 {
   font-size: 48px;
   margin-bottom: 20px;
   font-weight: bold;
-  color: #fff;
+  color: #081772;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: medium;
+  color: #6C6C6C;
 }
 
 .navbar {
@@ -160,19 +167,19 @@ h1 {
 }
 
 .hero {
-  background-image: url(../../assets/Hero-imagen.png);
+  background-image: url(../../assets/hero-image.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 150px 0;
 }
 .hero .hero-content {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .hero .hero-content .hero-text {
   max-width: 50%;
+  margin-bottom: 24px;
 }
 .hero .hero-content .hero-text h1 {
   font-size: 48px;
@@ -188,7 +195,6 @@ h1 {
 }
 .hero .hero-content .hero-text p {
   font-size: 16px;
-  margin-bottom: 24px;
   color: #6C6C6C;
 }
 .hero .hero-content .hero-image img {
