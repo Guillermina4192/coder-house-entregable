@@ -1,0 +1,45 @@
+// Botones
+.btn {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: $color-primary;
+    transition: all 0.3s ease;
+
+    &.btn-primary {
+        background-color: $color-primary;
+        color: #fff;
+
+        &:hover {
+            background-color: $color-primary-light;
+            border-radius: 32px;
+        }
+    }
+
+    &.btn-outline-secondary {
+        color: $color-primary;
+        border: 2px solid $color-primary;
+        background-color: transparent;
+
+        &:hover {
+            background-color: $color-primary;
+            color: #fff;
+            border-radius: 32px;
+        }
+    }
+
+    &.hero-btn {
+        color: $color-primary;
+        border: 2px solid $color-primary;
+        background-color: transparent;
+
+        &:hover {
+            background-color: $color-primary;
+            color: #fff;
+            border-radius: 32px;
+        }
+
+    }
+}

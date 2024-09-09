@@ -1,0 +1,48 @@
+// Footer
+.footer {
+    background-color: $color-footer-bg;
+    color: $color-footer-text;
+    padding: 60px 0;
+    text-align: center;
+  
+    h4 {
+      font-size: 1.75rem;
+      margin-bottom: 20px;
+      color: $color-footer-text;
+    }
+  
+    form {
+      margin-bottom: 30px;
+  
+      input {
+        width: 100%;
+        max-width: 300px;
+        padding: $padding-base;
+        border-radius: 5px;
+        margin-bottom: 15px;
+      }
+  
+      button {
+        background-color: transparent;
+        border-color: $color-footer-text;
+        color: $color-footer-text;
+        border-radius: 5px;
+  
+        &:hover {
+          border-radius: 32px;
+          background-color: transparent;
+        }
+      }
+    }
+  
+    .row {
+      margin-top: 30px;
+      font-size: 1rem;
+  
+      .col-md-4 {
+        margin-bottom: 10px;
+        color: $color-footer-text;
+      }
+    }
+  }
+  
