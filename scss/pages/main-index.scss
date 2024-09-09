@@ -43,6 +43,11 @@
     }
 }
 
+.hero-home {
+    background-image: none !important;
+    background: linear-gradient(16deg, rgba(231,231,231,0.8596491228070176) 0%, rgba(255,255,255,1) 100%);
+}
+
 .features .feature-item h4 {
     color: $color-primary;
     font-weight: bold;
@@ -59,17 +64,4 @@
     &:hover {
         transform: scale(1.05);
     }
-}
-
-h4 {
-    font-size: 24px;
-    margin-bottom: 8%;
-    font-weight: medium;
-    color: $color-primary;
-}
-h1 {
-    font-size: $font-size-xlarge;
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: $color-footer-text;
 }

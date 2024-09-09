@@ -6,6 +6,20 @@ body {
   color: #6C6C6C;
 }
 
+h4 {
+  font-size: 24px;
+  margin-bottom: 8%;
+  font-weight: medium;
+  color: #081772;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
 .navbar {
   background-color: #fff;
   padding: 15px 0;
@@ -182,6 +196,11 @@ body {
   border-radius: 10px;
 }
 
+.hero-home {
+  background-image: none !important;
+  background: linear-gradient(16deg, rgba(231, 231, 231, 0.8596491228) 0%, rgb(255, 255, 255) 100%);
+}
+
 .features .feature-item h4 {
   color: #081772;
   font-weight: bold;
@@ -196,20 +215,6 @@ body {
 }
 .img-fluid:hover {
   transform: scale(1.05);
-}
-
-h4 {
-  font-size: 24px;
-  margin-bottom: 8%;
-  font-weight: medium;
-  color: #081772;
-}
-
-h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-  font-weight: bold;
-  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */
