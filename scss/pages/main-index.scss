@@ -1,7 +1,11 @@
 // Hero
 .hero {
-    background-color: #E7E7E7;
-    padding: 100px 0;
+    background-image: url(../../assets/Hero-imagen.png);
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    padding: 150px 0;              
+    
 
     .hero-content {
         display: flex;
@@ -15,6 +19,13 @@
                 font-size: $font-size-xlarge;
                 margin-bottom: 20px;
                 font-weight: bold;
+                color: $color-primary;
+            }
+
+            h4 {
+                font-size: $font-size-large;
+                margin-bottom: 24%;
+                font-weight: medium;
                 color: $color-primary;
             }
 
@@ -43,9 +54,22 @@
 .img-fluid {
     border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
+    max-width: 70%;
 
     &:hover {
         transform: scale(1.05);
     }
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: 8%;
+    font-weight: medium;
+    color: $color-primary;
+}
+h1 {
+    font-size: $font-size-xlarge;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: $color-footer-text;
 }
